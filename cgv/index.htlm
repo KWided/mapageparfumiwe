@@ -1,1 +1,550 @@
+<!DOCTYPE html>
 
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>L'Atelier IWÉA Parfum - Haute Parfumerie</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Montserrat:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#ffffff","on-secondary-fixed":"#2b1700","surface-tint":"#526167","secondary":"#765938","tertiary-fixed-dim":"#fbb3c3","surface-bright":"#fbf9f6","on-secondary-container":"#795b3b","on-primary-fixed-variant":"#3b494f","secondary-fixed-dim":"#e6c098","secondary-fixed":"#ffddbb","surface-variant":"#e4e2df","surface-container-highest":"#e4e2df","surface-container":"#efeeeb","primary-fixed":"#d6e5ec","outline-variant":"#c3c7ca","on-surface-variant":"#43474a","background":"#fbf9f6","on-error-container":"#93000a","on-error":"#ffffff","error-container":"#ffdad6","tertiary-container":"#612f3c","tertiary":"#471a27","inverse-primary":"#bac9d0","on-background":"#1b1c1a","error":"#ba1a1a","surface-container-high":"#eae8e5","on-surface":"#1b1c1a","primary":"#1d2b31","on-tertiary-fixed-variant":"#6b3744","surface-container-low":"#f5f3f0","inverse-surface":"#30312f","tertiary-fixed":"#ffd9e0","on-primary-container":"#9eadb4","on-secondary":"#ffffff","secondary-container":"#fed6ad","on-tertiary-fixed":"#360c1a","on-tertiary":"#ffffff","primary-container":"#334147","inverse-on-surface":"#f2f0ed","surface":"#fbf9f6","on-primary-fixed":"#0f1d23","surface-dim":"#dbdad7","surface-container-lowest":"#ffffff","primary-fixed-dim":"#bac9d0","outline":"#73787a","on-tertiary-container":"#db97a7","on-secondary-fixed-variant":"#5c4123"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"margin-desktop":"4rem","space-sm":"0.5rem","gutter-desktop":"2.5rem","space-md":"1rem","space-xs":"0.25rem","margin":"1.25rem","space-lg":"1.75rem","space-xl":"3rem","gutter":"1.5rem"},fontFamily:{"headline-sm":["EB Garamond"],"body-md":["Montserrat"],"label-sm":["Montserrat"],"body-lg":["Montserrat"],"label-lg":["Montserrat"],"headline-lg":["EB Garamond"],"display-sm":["EB Garamond"],"title-md":["Montserrat"],"display-lg":["EB Garamond"],"headline-lg-mobile":["EB Garamond"]},fontSize:{"headline-sm":["1.5rem",{lineHeight:"2rem",letterSpacing:"0.01em",fontWeight:"500"}],"body-md":["0.875rem",{lineHeight:"1.5rem",letterSpacing:"0.015em",fontWeight:"400"}],"label-sm":["0.6875rem",{lineHeight:"1rem",letterSpacing:"0.22em",fontWeight:"500"}],"body-lg":["1rem",{lineHeight:"1.65rem",letterSpacing:"0.01em",fontWeight:"400"}],"label-lg":["0.75rem",{lineHeight:"1.25rem",letterSpacing:"0.18em",fontWeight:"500"}],"headline-lg":["2.25rem",{lineHeight:"2.75rem",letterSpacing:"0em",fontWeight:"600"}],"display-sm":["2.75rem",{lineHeight:"3.25rem",letterSpacing:"-0.005em",fontWeight:"600"}],"title-md":["1.125rem",{lineHeight:"1.75rem",letterSpacing:"0.02em",fontWeight:"500"}],"display-lg":["4rem",{lineHeight:"4.5rem",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg-mobile":["1.75rem",{lineHeight:"2.25rem",letterSpacing:"0em",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low px-4 lg:px-margin-desktop py-1 flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant uppercase"><div class="flex items-center gap-4"><span>Atelier de Haute Parfumerie Française</span><span class="hidden md:inline text-outline-variant">•</span><span class="hidden md:inline">Expédition Signature Offerte dès 120€</span></div><div class="flex items-center gap-6"><a class="hover:text-primary transition-colors tracking-widest" data-path="contact" href="#">Contact Rapide</a><span>Service Concierge : +33 (0)1 42 68 00 00</span></div></div><div class="h-24 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-6"><img alt="logo IWEA Parfum.jpg" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDdTyzezk1w6JwwvuKtSXgGmwY9Biu8e6VFWiM6RniP2wH2-9zXKR_JA_jg3mU9lYhDB5T8j3txr75H2XlujkEyeOe6ptNE5mEMXzV1SCc3dXdN6n99W6ypzT3ywOIaz0Sh3YOdzE-uZ9-tASS1-k7rX2iHXJcSFdd_vlnZdoCOkLUfvuUaket7rrQQEDvOVKv5rdK3q0KNXmIIb9y6QFr8iK27nEi2gz5EuIMNud6bYHoow47r1W_BSA"/><a class="flex flex-col" data-path="home" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none uppercase">L'Atelier IWÉA</span><span class="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase">Parfum Paris</span></a><div class="hidden xl:flex items-center bg-surface-container-low px-4 py-1.5 rounded-full ml-4"><span class="material-symbols-outlined text-outline text-lg mr-2">search</span><input class="bg-transparent border-0 focus:outline-none font-body-md text-body-md text-on-surface placeholder:text-outline w-56" placeholder="Rechercher une fragrance, une note..." type="text"/></div></div><nav class="hidden lg:flex items-center gap-8 font-label-lg text-label-lg uppercase tracking-[0.18em]" data-active-classes="text-primary font-title-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="la-marque" href="#">Marque</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="coffrets" href="#">Coffrets</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="enfants" href="#">Enfants</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="cadeaux" href="#">Cadeaux</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1 text-secondary" data-path="cadeaux-noel" href="#">Cadeaux Noël</a></nav><div class="flex items-center gap-4 lg:gap-5"><a aria-label="Favoris" class="p-1.5 text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="favoris" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span></a><a aria-label="Panier" class="p-1.5 text-on-surface-variant hover:text-primary transition-colors flex items-center relative" data-path="panier" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute -top-1 -right-1 bg-secondary text-on-secondary rounded-full w-4 h-4 flex items-center justify-center font-label-sm text-[9px] font-bold">0</span></a><a class="hidden sm:flex items-center gap-2 font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors pl-2" data-path="connexion" href="#"><span class="material-symbols-outlined text-[18px]">lock</span><span>Connexion</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-2"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-24 bg-surface min-h-[calc(100vh-28rem)]"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow & Luxury Banner -->
+<section class="relative w-full overflow-hidden bg-surface-container-low py-14 px-6 lg:px-margin-desktop">
+<div class="absolute -top-24 right-1/4 w-96 h-96 rounded-full bg-secondary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-0 left-10 w-72 h-72 rounded-full bg-surface-tint/5 blur-2xl pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto flex flex-col gap-6">
+<!-- Breadcrumb -->
+<nav aria-label="Fil d'Ariane" class="flex items-center gap-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1.5" data-path="home" href="#">
+<span class="material-symbols-outlined text-[15px]">home</span>
+<span>Accueil</span>
+</a>
+<span class="text-outline-variant text-[11px]">•</span>
+<span class="text-primary font-medium tracking-[0.2em]">Conditions Générales de Vente</span>
+</nav>
+<!-- Editorial Title Block -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pt-2">
+<div class="max-w-3xl space-y-3">
+<div class="inline-flex items-center gap-2.5 px-3 py-1 bg-surface-container rounded-full text-secondary font-label-sm text-label-sm uppercase tracking-[0.2em]">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Cadre Réglementaire &amp; Sécurité d'Achat</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:font-display-sm lg:text-display-sm text-primary tracking-tight font-normal">
+            Conditions Générales de Vente
+          </h1>
+<p class="font-label-lg text-label-lg uppercase tracking-[0.16em] text-secondary">
+            Dernière mise à jour : 2026 — L'Atelier IWÉA Parfum
+          </p>
+</div>
+<!-- Quick Info Card -->
+<div class="p-5 bg-surface-container-lowest rounded-xl shadow-sm flex items-center gap-4 lg:max-w-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<div class="space-y-0.5">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider block">Garantie Atelier</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-snug">
+              Expéditions sécurisées, formules conformes aux normes IFRA et traçabilité artisanale totale.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Note / Atelier Intro -->
+<section class="max-w-7xl mx-auto w-full px-6 lg:px-12 -mt-6 z-10">
+<div class="bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 space-y-3">
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest">
+<span class="material-symbols-outlined text-lg">spa</span>
+<span>Note Introductive de Maison</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-primary leading-snug">
+          Boutique de création olfactive exclusivement accessible en ligne, certifiant des fragrances précieuses préparées selon l'art de la parfumerie française.
+        </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Chaque formule issue de nos orgues à parfums est protégée dans son écrin scellé. Les présentes conditions régissent avec transparence et rigueur vos acquisitions, en préservant l'intégrité de vos extraits et la sérénité de votre commande.
+        </p>
+</div>
+<div class="lg:col-span-4 flex flex-col justify-center gap-3 p-6 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<span>Articles Contractuels</span>
+<span class="font-headline-sm text-headline-sm text-primary">14</span>
+</div>
+<div class="w-full bg-surface-variant h-1 rounded-full overflow-hidden">
+<div class="bg-secondary h-full w-full"></div>
+</div>
+<div class="flex items-center gap-2 pt-1 text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-secondary text-base">gavel</span>
+<span>Droit applicable : République Française</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Layout (Sticky Nav + 14 Articles) -->
+<section class="max-w-7xl mx-auto w-full px-6 lg:px-12 py-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-start">
+<!-- Sticky Sidebar Navigation -->
+<aside class="lg:col-span-4 sticky top-28 space-y-6">
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<div class="flex items-center justify-between pb-4 mb-4 bg-surface-container-low p-3 rounded-lg">
+<div class="flex items-center gap-2 text-primary font-label-lg text-label-lg uppercase tracking-wider">
+<span class="material-symbols-outlined text-secondary text-lg">toc</span>
+<span>Sommaire des Articles</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 bg-surface-container text-secondary rounded-full font-medium">1 à 14</span>
+</div>
+<nav class="flex flex-col space-y-1 max-h-[614px] overflow-y-auto pr-1" id="cgv-nav">
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-1">
+<span class="truncate">1. Présentation de l'entreprise</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">01</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-2">
+<span class="truncate">2. Objet</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">02</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-3">
+<span class="truncate">3. Produits</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">03</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-4">
+<span class="truncate">4. Prix</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">04</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-5">
+<span class="truncate">5. Commande</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">05</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-6">
+<span class="truncate">6. Paiement</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">06</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-7">
+<span class="truncate">7. Livraison</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">07</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-8">
+<span class="truncate">8. Droit de rétractation et retours</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">08</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-9">
+<span class="truncate">9. Produits défectueux et garanties</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">09</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-10">
+<span class="truncate">10. Responsabilité</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">10</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-11">
+<span class="truncate">11. Données personnelles</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">11</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-12">
+<span class="truncate">12. Réclamations et médiation</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">12</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-13">
+<span class="truncate">13. Droit applicable</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">13</span>
+</a>
+<a class="cgv-toc-link flex items-center justify-between px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors font-body-md text-body-md group" href="#art-14">
+<span class="truncate">14. Acceptation des CGV</span>
+<span class="font-label-sm text-[10px] text-secondary tracking-widest opacity-60 group-hover:opacity-100">14</span>
+</a>
+</nav>
+</div>
+<!-- Download & Assistance Quick Box -->
+<div class="bg-primary text-on-primary p-6 rounded-xl shadow-sm space-y-4">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-xl">download_for_offline</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-primary font-normal leading-tight">Version Imprimable</h3>
+<p class="font-body-md text-body-md text-on-primary-container mt-1">
+              Conservez l'intégralité de nos clauses contractuelles au format PDF officiel.
+            </p>
+</div>
+<button class="w-full py-2.5 px-4 bg-secondary text-on-secondary rounded-lg font-label-lg text-label-lg uppercase tracking-[0.16em] hover:bg-secondary/90 transition-all flex items-center justify-center gap-2 shadow-sm" onclick="window.print()">
+<span class="material-symbols-outlined text-lg">print</span>
+<span>Imprimer / Télécharger</span>
+</button>
+</div>
+</aside>
+<!-- The 14 Articles Content -->
+<div class="lg:col-span-8 space-y-10">
+<!-- Article 1 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-6" id="art-1">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">01</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 1 – Présentation de l'entreprise</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Identité</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>Le présent site internet est exploité par :</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-surface-container-low p-6 rounded-lg text-on-surface">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Nom commercial</span>
+<p class="font-medium text-primary">L'Atelier IWÉA Parfum</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Société &amp; Forme</span>
+<p class="font-medium text-primary">L'Atelier IWÉA (SAS)</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Siège social</span>
+<p class="font-medium text-primary">Paris, France</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Numéro SIRET</span>
+<p class="font-medium text-primary">894 123 456 00012</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Adresse e-mail</span>
+<p class="font-medium text-primary">contact@atelier-iweaparfum.com</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Ligne Conciergerie</span>
+<p class="font-medium text-primary">+33 (0)1 42 68 55 00</p>
+</div>
+</div>
+<p class="p-4 bg-surface-container rounded-lg text-primary font-medium flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl mt-0.5">storefront</span>
+<span>La boutique est exclusivement accessible en ligne et ne dispose d'aucun magasin physique.</span>
+</p>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-2">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">02</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 2 – Objet</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Périmètre</span>
+</div>
+<div class="space-y-3 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Les présentes Conditions Générales de Vente définissent les droits et obligations de l'entreprise et de ses clients dans le cadre de la vente en ligne de parfums. Les produits proposés sont exclusivement des parfums.
+            </p>
+<p class="text-primary font-medium">
+              Toute commande passée sur le site implique l'acceptation des présentes CGV.
+            </p>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-3">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">03</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 3 – Produits</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Catalogue</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              La boutique propose à la vente une sélection de parfums. Chaque produit est présenté avec une description permettant au client de connaître ses principales caractéristiques : nom, contenance, marque, fragrance et prix.
+            </p>
+<div class="p-4 bg-surface-container-low rounded-lg space-y-2">
+<p class="text-on-surface">
+                Les photographies sont présentées à titre illustratif. De légères différences visuelles peuvent exister selon les écrans utilisés.
+              </p>
+<p class="text-secondary font-medium">
+                Les produits sont proposés dans la limite des stocks disponibles.
+              </p>
+</div>
+</div>
+</article>
+<!-- Article 4 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-4">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">04</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 4 – Prix</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Tarification</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Les prix sont indiqués en euros (€), toutes taxes comprises pour les ventes concernées. Les frais de livraison sont indiqués avant la validation définitive de la commande.
+            </p>
+<div class="p-4 bg-surface-container-low rounded-lg text-primary space-y-2">
+<p>
+                Pour les commandes internationales, des frais supplémentaires peuvent s'appliquer, notamment des droits de douane ou taxes locales, selon le pays de destination. Ces frais sont précisés au client avant l'achat lorsque cela est possible.
+              </p>
+<p class="font-medium text-secondary">
+                L'entreprise se réserve le droit de modifier ses prix à tout moment. Le prix appliqué reste celui affiché au moment de la validation de la commande.
+              </p>
+</div>
+</div>
+</article>
+<!-- Article 5 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-5">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">05</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 5 – Commande</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Processus</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Le client sélectionne les parfums souhaités, les ajoute à son panier et renseigne ses informations de livraison. Avant de confirmer sa commande, il peut vérifier et modifier les informations saisies.
+            </p>
+<p>
+              La commande est définitive après validation du paiement et réception d'un e-mail de confirmation.
+            </p>
+<div class="p-4 bg-surface-container rounded-lg text-on-surface">
+<p class="font-medium">
+                L'entreprise se réserve le droit de refuser ou d'annuler une commande en cas de problème de paiement, de suspicion de fraude ou d'indisponibilité du produit.
+              </p>
+</div>
+</div>
+</article>
+<!-- Article 6 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-6">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">06</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 6 – Paiement</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Règlement Sécurisé</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Le paiement s'effectue en ligne par les moyens proposés sur le site : Carte bancaire (Visa, MasterCard, CB, American Express), PayPal, Klarna, Apple Pay, Google Pay.
+            </p>
+<div class="flex flex-wrap items-center gap-2 py-2">
+<span class="px-3 py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-primary">CB / Visa / Mastercard</span>
+<span class="px-3 py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-primary">American Express</span>
+<span class="px-3 py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-primary">Apple Pay &amp; Google Pay</span>
+<span class="px-3 py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-primary">Klarna (Paiement Échelonné)</span>
+<span class="px-3 py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-primary">PayPal</span>
+</div>
+<p>
+              Les paiements sont sécurisés par un prestataire de paiement spécialisé conforme aux protocoles 3D Secure. La commande est préparée après confirmation du paiement.
+            </p>
+</div>
+</article>
+<!-- Article 7 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-7">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">07</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 7 – Livraison</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Expédition</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Les commandes sont expédiées à l'adresse renseignée par le client lors de son achat. Les livraisons sont proposées dans les pays indiqués sur le site. Les délais et frais de livraison sont communiqués avant la validation de la commande. En cas de retard, le client peut contacter le service client à l'adresse suivante : <a class="text-secondary underline underline-offset-4" href="mailto:contact@atelier-iweaparfum.com">contact@atelier-iweaparfum.com</a>.
+            </p>
+<div class="p-4 bg-surface-container-low rounded-lg space-y-2 text-primary">
+<div class="flex items-center gap-2 font-medium text-secondary">
+<span class="material-symbols-outlined text-lg">flight_takeoff</span>
+<span>Réglementations Flacons &amp; Alcool</span>
+</div>
+<p>
+                Les parfums contenant de l'alcool peuvent être soumis à des restrictions particulières de transport. Certaines destinations peuvent donc être exclues. En cas de livraison internationale, des droits de douane et taxes d'importation peuvent être demandés au client selon la réglementation du pays concerné.
+              </p>
+</div>
+</div>
+</article>
+<!-- Article 8 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-6" id="art-8">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">08</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 8 – Droit de rétractation et retours</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">14 Jours</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Conformément à la législation française, le client particulier dispose d'un délai de 14 jours à compter de la réception de sa commande pour exercer son droit de rétractation, sans avoir à justifier sa décision.
+            </p>
+<!-- Important Perfume Return Exception Box -->
+<div class="p-6 bg-surface-container rounded-lg border-l-2 border-secondary space-y-3">
+<div class="flex items-center gap-2 text-secondary font-label-lg text-label-lg uppercase tracking-wider">
+<span class="material-symbols-outlined text-xl">lock</span>
+<span>Scellés &amp; Protection Sanitaire</span>
+</div>
+<p class="text-primary leading-relaxed">
+                Pour les parfums, lorsque le produit est livré sous un emballage scellé garantissant sa protection sanitaire ou son hygiène, le droit de rétractation ne peut plus être exercé si cet emballage a été ouvert après la livraison, dans les conditions prévues par la loi. Les produits retournés doivent être dans leur état d'origine, non utilisés et avec leur emballage et scellés intacts lorsque cette exception s'applique.
+              </p>
+</div>
+<p>
+              Les frais de retour sont à la charge du client, sauf disposition légale contraire ou erreur imputable à l'entreprise. Pour exercer son droit de rétractation, le client doit contacter : <span class="font-medium text-primary">contact@atelier-iweaparfum.com</span> ou via le formulaire de contact en ligne. Le remboursement intervient dans les délais légaux.
+            </p>
+</div>
+</article>
+<!-- Article 9 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-9">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">09</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 9 – Produits défectueux et garanties</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Garanties Légales</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>Tous les produits bénéficient des garanties légales applicables :</p>
+<ul class="space-y-2 list-none pl-2">
+<li class="flex items-center gap-3 text-primary font-medium">
+<span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+<span>Garantie légale de conformité.</span>
+</li>
+<li class="flex items-center gap-3 text-primary font-medium">
+<span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+<span>Garantie contre les vices cachés.</span>
+</li>
+</ul>
+<p class="p-4 bg-surface-container-low rounded-lg">
+              En cas de produit défectueux, endommagé ou non conforme à la commande, le client doit contacter le service client en fournissant si possible des photographies du produit concerné. L'entreprise étudiera la demande et proposera une solution conformément à la réglementation applicable.
+            </p>
+</div>
+</article>
+<!-- Article 10 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-10">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">10</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 10 – Responsabilité</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Limites L风险</span>
+</div>
+<div class="space-y-3 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              L'entreprise s'engage à assurer le bon fonctionnement de sa boutique en ligne et à traiter les commandes avec soin. Sa responsabilité ne pourra être engagée en cas de mauvaise utilisation du produit par le client, de force majeure ou de problème indépendant de sa volonté, dans les limites autorisées par la loi.
+            </p>
+</div>
+</article>
+<!-- Article 11 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-11">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">11</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 11 – Données personnelles</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">RGPD &amp; Vie Privée</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Les informations personnelles collectées lors des commandes sont utilisées pour gérer les achats, les paiements, les livraisons et le service client. Ces données sont traitées conformément à la réglementation relative à la protection des données personnelles (RGPD).
+            </p>
+<div class="p-4 bg-surface-container-low rounded-lg text-on-surface">
+<p>
+                Le client peut exercer ses droits d'accès, de rectification, d'effacement et d'opposition dans les conditions prévues par la réglementation, en contactant : <span class="font-medium text-primary">contact@atelier-iweaparfum.com</span>. Pour plus d'informations, le client peut consulter la Politique de confidentialité du site.
+              </p>
+</div>
+</div>
+</article>
+<!-- Article 12 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-12">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">12</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 12 – Réclamations et médiation</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Conciliation</span>
+</div>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Pour toute question ou réclamation, le client peut contacter le service client à l'adresse suivante : <a class="text-secondary font-medium underline underline-offset-4" href="mailto:contact@atelier-iweaparfum.com">contact@atelier-iweaparfum.com</a>.
+            </p>
+<div class="p-4 bg-surface-container rounded-lg text-primary flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl mt-0.5">balance</span>
+<p>
+                En cas de désaccord non résolu, le client particulier peut recourir gratuitement à un médiateur de la consommation dont les coordonnées seront indiquées sur le site.
+              </p>
+</div>
+</div>
+</article>
+<!-- Article 13 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-13">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">13</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 13 – Droit applicable</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Juridiction</span>
+</div>
+<div class="space-y-3 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Les présentes CGV sont soumises au droit français. Pour les clients résidant à l'étranger, les dispositions impératives de protection des consommateurs applicables dans leur pays de résidence restent préservées lorsque la réglementation le prévoit.
+            </p>
+</div>
+</article>
+<!-- Article 14 -->
+<article class="scroll-mt-28 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-sm space-y-5" id="art-14">
+<div class="flex items-baseline justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-lg text-headline-lg text-secondary font-light">14</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-wide">Article 14 – Acceptation des CGV</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Engagement</span>
+</div>
+<div class="p-6 bg-surface-container-low rounded-lg space-y-2">
+<p class="font-headline-sm text-headline-sm text-primary">
+              La validation d'une commande implique la lecture et l'acceptation des présentes Conditions Générales de Vente.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Cette acceptation est matérialisée par une case à cocher lors de l'étape de confirmation du panier avant tout règlement financier.
+            </p>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Bottom Assistance Callout -->
+<section class="w-full bg-surface-container py-16 px-6 lg:px-margin-desktop my-8">
+<div class="max-w-4xl mx-auto text-center space-y-6">
+<div class="w-14 h-14 mx-auto rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-3xl">support_agent</span>
+</div>
+<div class="space-y-2">
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Une question sur nos conditions ou vos commandes olfactives ?
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+          Nos conseillers parfum et notre service juridique se tiennent à votre disposition pour vous éclairer sur chaque aspect de votre expérience.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+<a class="w-full sm:w-auto px-8 py-3.5 bg-primary text-on-primary rounded-lg font-label-lg text-label-lg uppercase tracking-[0.18em] hover:bg-primary-container transition-all flex items-center justify-center gap-2 shadow-sm" href="mailto:contact@atelier-iweaparfum.com">
+<span class="material-symbols-outlined text-lg">mail</span>
+<span>Écrire à la Conciergerie</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-3.5 bg-surface-container-lowest text-primary rounded-lg font-label-lg text-label-lg uppercase tracking-[0.18em] hover:bg-surface-container-high transition-all flex items-center justify-center gap-2 shadow-sm" href="tel:+33142685500">
+<span class="material-symbols-outlined text-secondary text-lg">call</span>
+<span>+33 (0)1 42 68 55 00</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive Scrollspy Script for Sticky Table of Contents -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const links = document.querySelectorAll('.cgv-toc-link');
+      const articles = document.querySelectorAll('article[id^="art-"]');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            links.forEach(link => {
+              const href = link.getAttribute('href').substring(1);
+              if (href === id) {
+                link.classList.add('bg-surface-container', 'text-primary', 'font-medium');
+                link.classList.remove('text-on-surface-variant');
+              } else {
+                link.classList.remove('bg-surface-container', 'text-primary', 'font-medium');
+                link.classList.add('text-on-surface-variant');
+              }
+            });
+          }
+        });
+      }, {
+        rootMargin: '-100px 0px -70% 0px',
+        threshold: 0
+      });
+
+      articles.forEach(article => observer.observe(article));
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="bg-surface-container py-6"><div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left"><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">verified_user</span><div><p class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Paiement Sécurisé</p><p class="font-body-md text-body-md text-on-surface-variant">Transactions cryptées SSL &amp; 3D Secure</p></div></div><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">local_shipping</span><div><p class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Livraison Haute Précision</p><p class="font-body-md text-body-md text-on-surface-variant">Chronopost • Colissimo • Point Relais</p></div></div><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">featured_seasonal_and_gifts</span><div><p class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Partenaires Prestige Gift</p><p class="font-body-md text-body-md text-on-surface-variant">Dior, Chanel, Guerlain, Hermès</p></div></div><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">nest_eco_leaf</span><div><p class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Haute Parfumerie Éthique</p><p class="font-body-md text-body-md text-on-surface-variant">Alcool biologique &amp; formules pures</p></div></div></div></div><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-10"><div class="md:col-span-1 space-y-4"><p class="font-headline-sm text-headline-sm uppercase text-primary tracking-wide">L'Atelier IWÉA</p><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Maison de haute parfumerie créative. L'union du savoir-faire traditionnel de Grasse et de la vision contemporaine du luxe sensoriel.</p><div class="pt-2"><p class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Maison Fondée à Paris</p></div></div><div class="space-y-4"><p class="font-label-lg text-label-lg uppercase tracking-[0.18em] text-primary">Service Client</p><ul class="space-y-2.5 font-body-md text-body-md"><li class="nav-item"><a class="text-primary font-medium hover:text-secondary transition-colors underline decoration-secondary decoration-1 underline-offset-4" data-path="conditions-generales-de-vente" href="#">Conditions Générales de Vente (CGV)</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="faq" href="#">Questions Fréquentes (FAQ)</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="expeditions-et-retours" href="#">Expéditions &amp; Retours</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="suivre-ma-commande" href="#">Suivi de Commande</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#">Nous Contacter</a></li></ul></div><div class="space-y-4"><p class="font-label-lg text-label-lg uppercase tracking-[0.18em] text-primary">Plus d'Informations</p><ul class="space-y-2.5 font-body-md text-body-md"><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="notre-histoire" href="#">Notre Histoire &amp; Atelier</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="les-matieres-premieres" href="#">Origine des Matières Premières</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="points-de-vente" href="#">Boutiques &amp; Points de Vente</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="engagements-rse" href="#">Charte d'Éco-responsabilité</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="presse" href="#">Espace Presse &amp; Partenariats</a></li></ul></div><div class="space-y-4"><p class="font-label-lg text-label-lg uppercase tracking-[0.18em] text-primary">Conditions Générales</p><ul class="space-y-2.5 font-body-md text-body-md"><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="mentions-legales" href="#">Mentions Légales</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="politique-de-confidentialite" href="#">Politique de Confidentialité</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="gestion-des-cookies" href="#">Gestion des Cookies</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="reglement-des-litiges" href="#">Médiation &amp; Litiges</a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="conformite-rgpd" href="#">Protection des Données (RGPD)</a></li></ul></div></div><div class="mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest"><p>© 2024 L'Atelier IWÉA Parfum. Tous droits réservés.</p><p class="text-outline">Conçu avec excellence &amp; passion olfactive.</p></div></div></footer></body></html>
