@@ -1,0 +1,359 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="fr"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>L'Atelier IWÉA Parfum - Haute Parfumerie &amp; Parfums d'Exception</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Cormorant Garamond & Montserrat -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<!-- FontAwesome Icons for clean UI accents -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#C59A6F',
+              goldLight: '#E8D3BA',
+              goldDark: '#9E7447',
+              navy: '#1A2530',
+              midnight: '#0F1722',
+              cream: '#FAF8F5',
+              lagoon: '#3AB8D8',
+              lagoonSoft: '#E6F7FA',
+              border: '#E8DFD8'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Montserrat"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: StyleBlocks -->
+<style data-purpose="typography">
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #1A2530;
+      background-color: #FAF8F5;
+    }
+    .font-serif-luxury {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      letter-spacing: 0.03em;
+    }
+  </style>
+<style data-purpose="luxury-effects">
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #B58451 0%, #D8B184 50%, #9E7447 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-border-gradient {
+      border-image: linear-gradient(to right, #B58451, #ECC89C, #B58451) 1;
+    }
+    .card-hover-gold {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card-hover-gold:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px -8px rgba(197, 154, 111, 0.25);
+    }
+  </style>
+<!-- END: StyleBlocks -->
+</head>
+<body class="bg-[#FAF8F5] text-slate-800 antialiased selection:bg-brand-goldLight selection:text-brand-midnight">
+<!-- BEGIN: BrowserAddressSimulator -->
+<!-- Conforme au croquis: barre d'adresse de navigateur avec simulateur latelier-iweaparfum.com et cadenas -->
+<div class="w-full bg-[#E5E9EE] border-b border-gray-300 py-1.5 px-4 flex items-center justify-between text-xs text-gray-600 font-mono select-none" data-purpose="browser-bar">
+<div class="flex items-center space-x-2">
+<div class="flex space-x-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-red-400 inline-block"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-green-400 inline-block"></span>
+</div>
+<div class="flex items-center space-x-1 pl-3 text-gray-400">
+<i class="fa-solid fa-arrow-left text-[10px]"></i>
+<i class="fa-solid fa-arrow-right text-[10px]"></i>
+<i class="fa-solid fa-rotate-right text-[10px]"></i>
+</div>
+</div>
+<!-- URL Bar centrale avec cadenas -->
+<div class="flex items-center bg-white border border-gray-300 rounded-full px-5 py-0.5 w-full max-w-xl mx-4 shadow-inner text-slate-700 justify-center">
+<i class="fa-solid fa-lock text-[11px] text-emerald-600 mr-2"></i>
+<span class="text-xs font-sans tracking-wide">https://<strong class="font-semibold text-slate-900">latelier-iweaparfum.com</strong></span>
+</div>
+<div class="flex items-center space-x-3 text-gray-500">
+<i class="fa-regular fa-star text-[11px]"></i>
+<i class="fa-solid fa-ellipsis text-[11px]"></i>
+</div>
+</div>
+<!-- END: BrowserAddressSimulator -->
+<!-- BEGIN: TopBarAndHeader -->
+<header class="bg-white border-b border-brand-border sticky top-0 z-50 shadow-sm">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+<div class="flex items-center justify-between gap-4">
+<!-- Colonne Gauche: Identité & Accès Utilisateur (Croquis: L'Atelier IWÉA Parfum + Connexion, Favoris, Panier) -->
+<div class="w-1/3 flex flex-col space-y-2" data-purpose="user-navigation">
+<div class="flex items-center space-x-2">
+<span class="font-serif-luxury text-base tracking-widest uppercase font-semibold text-brand-navy">L'Atelier IWÉA Parfum</span>
+</div>
+<div class="flex items-center space-x-6 text-xs text-slate-600">
+<!-- Bouton Connexion avec silhouette bleue (croquis) -->
+<a class="group flex items-center space-x-1.5 hover:text-brand-gold transition-colors" href="#connexion">
+<span class="w-7 h-7 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-brand-gold group-hover:text-white transition">
+<i class="fa-solid fa-user text-xs"></i>
+</span>
+<span class="font-medium text-slate-700 group-hover:text-brand-goldDark">Connexion</span>
+</a>
+<!-- Bouton Favoris avec cœur rouge (croquis) -->
+<a class="group flex items-center space-x-1.5 hover:text-rose-600 transition-colors" href="#favoris">
+<span class="w-7 h-7 rounded-full bg-rose-50 text-rose-500 flex items-center justify-center group-hover:bg-rose-500 group-hover:text-white transition">
+<i class="fa-solid fa-heart text-xs"></i>
+</span>
+<span class="font-medium text-slate-700 group-hover:text-rose-600">Favoris</span>
+</a>
+<!-- Bouton Panier avec cloche/panier bleu (croquis) -->
+<a class="group flex items-center space-x-1.5 hover:text-brand-gold transition-colors relative" href="#panier">
+<span class="w-7 h-7 rounded-full bg-sky-50 text-sky-600 flex items-center justify-center group-hover:bg-brand-navy group-hover:text-white transition">
+<i class="fa-solid fa-bag-shopping text-xs"></i>
+</span>
+<span class="font-medium text-slate-700 group-hover:text-brand-navy">Panier</span>
+<span class="absolute -top-1 -right-2 bg-brand-gold text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">0</span>
+</a>
+</div>
+</div>
+<!-- Colonne Centrale: Le Logo Officiel IWÉA (croquis: Logo au milieu) -->
+<div class="w-1/3 flex justify-center items-center" data-purpose="site-logo"><a class="block bg-white p-3 rounded-xl border border-brand-border/60 shadow-sm transition-all duration-300 hover:scale-105 hover:shadow-md" href="#"><img alt="L'Atelier IWÉA Parfum - Logo Officiel" class="h-20 md:h-24 w-auto object-contain mx-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC619Xxxec-ZvEiEnJLIM_Rig9BPozOPPh_yckeXAeGhVDnAHl2tzYUkRL6zBiOjb6nTRDl2HD9pr4v2T_nvkwedSZc6AbXFdRP4-2BuKtxJSlhpZ6qDXZAdBlgNyNdsr7cYP3CDCIOATBm3D8b0SKKzFkG5SDTK7-xFQFw9Kic7FEhEovjxGHxiNQixKaFyYi19qAnkKIwAHOvjPtE6IUEb1ommccr5D0Qpvu45JdASHiMW8m5n4Sp"></a></div>
+<!-- Colonne Droite: Recherche + Micro-Services (croquis: Q Bonjour, que cherchez-vous ? + Paiement 3 fois*** / livraison offerte dès 49€* / Fidélité) -->
+<div class="w-1/3 flex flex-col items-end space-y-1.5" data-purpose="search-and-perks">
+<!-- Barre de Recherche -->
+<div class="relative w-full max-w-sm">
+<input class="w-full text-xs font-light bg-slate-50 border border-slate-300 rounded-full pl-9 pr-4 py-2 focus:ring-1 focus:ring-brand-gold focus:border-brand-gold outline-none transition placeholder-slate-400" placeholder="Bonjour, que cherchez-vous ?" type="text">
+<i class="fa-solid fa-magnifying-glass absolute left-3.5 top-2.5 text-xs text-brand-gold"></i>
+</div>
+<!-- Services sous la barre de recherche (reproduit fidèlement le croquis) -->
+<div class="flex items-center space-x-2 text-[10px] text-slate-500 whitespace-nowrap">
+<span>Paiement 3 fois***</span>
+<span class="text-slate-300">|</span>
+<span class="text-slate-700 font-medium">Livraison offerte dès 49€*</span>
+<span class="text-slate-300">|</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200 text-[9px] font-semibold tracking-tight">
+<i class="fa-solid fa-gem text-[8px] mr-1 text-brand-gold"></i> Fidélité
+            </span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- END: TopBarAndHeader -->
+<!-- BEGIN: HighlightPromoBanner -->
+<!-- Conforme au croquis: Bandeau bleu surligné "IWÉA DAYS -30% Dès 49€*" -->
+<aside class="w-full bg-[#334147] text-[#FAF8F5] border-y border-[#AA8864]/40 shadow-sm py-2.5 px-4" data-purpose="promo-banner"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-3 text-center"><span class="inline-flex items-center gap-1.5 bg-[#AA8864] text-white text-[11px] font-semibold tracking-widest uppercase px-3 py-1 rounded-sm shadow-sm"><i class="fa-solid fa-sparkles text-amber-200 text-xs"></i> IWÉA DAYS</span><p class="text-xs md:text-sm tracking-wider font-medium text-white flex items-center gap-2"><span class="text-[#E5C9A6] font-bold text-sm md:text-base">-30% DÈS 49€ D'ACHAT*</span><span class="text-slate-300 hidden sm:inline">— Offre exclusive sur l'ensemble de la haute parfumerie</span></p></div></aside>
+<!-- END: HighlightPromoBanner -->
+<!-- BEGIN: NavigationBar -->
+<!-- Conforme au croquis: Marque [v], Coffrets [v], Enfants [v], Cadeaux [v], Cadeaux Noël [v], -30€** [v] -->
+<nav class="bg-white border-b border-slate-200" data-purpose="main-categories-navigation">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<ul class="flex items-center justify-center space-x-6 md:space-x-10 py-3 text-xs md:text-sm font-medium tracking-wide uppercase text-slate-700">
+<li class="relative group cursor-pointer">
+<span class="group-hover:text-brand-goldDark flex items-center gap-1 transition">
+            Marque <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover:text-brand-goldDark"></i>
+</span>
+<div class="h-0.5 bg-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200"></div>
+</li>
+<li class="relative group cursor-pointer">
+<span class="group-hover:text-brand-goldDark flex items-center gap-1 transition">
+            Coffrets <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover:text-brand-goldDark"></i>
+</span>
+<div class="h-0.5 bg-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200"></div>
+</li>
+<li class="relative group cursor-pointer">
+<span class="group-hover:text-brand-goldDark flex items-center gap-1 transition">
+            Enfants <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover:text-brand-goldDark"></i>
+</span>
+<div class="h-0.5 bg-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200"></div>
+</li>
+<li class="relative group cursor-pointer">
+<span class="group-hover:text-brand-goldDark flex items-center gap-1 transition">
+            Cadeaux <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover:text-brand-goldDark"></i>
+</span>
+<div class="h-0.5 bg-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200"></div>
+</li>
+<li class="relative group cursor-pointer">
+<span class="text-rose-700 font-semibold group-hover:text-rose-900 flex items-center gap-1 transition">
+<i class="fa-solid fa-gift text-xs mr-0.5"></i> Cadeaux Noël <i class="fa-solid fa-chevron-down text-[10px] text-rose-400"></i>
+</span>
+<div class="h-0.5 bg-rose-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200"></div>
+</li>
+<li class="relative group cursor-pointer">
+<span class="text-brand-goldDark font-bold bg-amber-50 px-3 py-1 rounded border border-amber-200 flex items-center gap-1 transition hover:bg-amber-100">
+            -30€** <i class="fa-solid fa-chevron-down text-[10px]"></i>
+</span>
+</li>
+</ul>
+</div>
+</nav>
+<!-- END: NavigationBar -->
+<!-- BEGIN: MainContentGrid -->
+<!-- Organisation exacte de la maquette croquis IMAGE_2: 
+       Partie gauche (Le parfum du jour) + Partie droite (Grille 2x2 des 4 gammes) -->
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- ================= COLONNE GAUCHE (5 cols): "Un Jour, un parfum à découvrir..." ================= -->
+<section class="lg:col-span-5 bg-white rounded-2xl p-6 md:p-8 border border-brand-border/80 shadow-sm relative overflow-hidden flex flex-col justify-between h-full" data-purpose="daily-fragrance-feature"><div class="absolute -top-12 -left-12 w-36 h-36 bg-[#AA8864]/10 rounded-full blur-2xl pointer-events-none"></div><div><div class="mb-3 text-center"><span class="text-[11px] uppercase tracking-widest text-[#AA8864] font-semibold">Éphémère &amp; Exclusif</span><h2 class="font-serif-luxury text-2xl md:text-3xl text-[#334147] italic font-semibold mt-1">“Un Jour, un parfum à découvrir...”</h2></div><div class="bg-gradient-to-b from-[#FAF8F5] to-amber-50/40 rounded-xl border border-[#AA8864]/30 p-5 my-3 relative overflow-hidden group shadow-sm"><span class="absolute top-3 right-3 bg-[#334147] text-[#E8D3BA] border border-[#AA8864]/50 text-[10px] tracking-wider uppercase px-3 py-1 rounded-full font-medium z-10 shadow-sm">Sélection du jour</span><div class="w-full h-64 md:h-72 rounded-lg overflow-hidden relative shadow-md mb-4"><img alt="Le Parfum du Jour — IWÉA Eau de Parfum" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ALJJyrCkD5C3ADeg_IIoZS1rejhLZ0kT8jI5WW9ar2sM2fRwD_tpQxzRZQYsHbQnPQdbjF0F1VuPq0xyDiYV0Ng5I23dt4Vw03jxxp-uEEcHTsuEgNFLlDYa8dXuHxIYIhrTl78ufpfIRvMARxU0lj9VVUB5WD_ziILwUOofJgu5wszBZEJ_bZmHV9A29Lcd2d4Zw9XMFIVz8_tqiZiZ9eHmvw62TaKfUEaPvygfwV_bGBk3"><div class="absolute inset-0 bg-gradient-to-t from-[#334147]/60 via-transparent to-transparent pointer-events-none"></div><div class="absolute bottom-2 left-3 text-white text-[11px] font-light tracking-widest uppercase"><span class="font-serif-luxury text-sm font-semibold text-[#E8D3BA]">Eau de Parfum</span> • 50 ml</div></div><div class="text-center mt-2"><h3 class="font-serif-luxury text-2xl md:text-3xl font-bold text-[#334147] tracking-wide">Le Parfum du Jour — IWÉA</h3><p class="text-xs text-slate-700 mt-2 line-clamp-2 max-w-sm mx-auto leading-relaxed">Eau de Parfum 50ml — Notes florales et boisées précieuses, bergamote pétillante, jasmin d'eau et accords solaires délicats.</p><div class="mt-4 flex items-center justify-center space-x-4"><span class="text-sm text-slate-500 line-through">79,00 €</span><span class="text-xl font-bold text-[#334147]">49,00 €</span><a href="#decouvrir-iwea" class="bg-[#334147] hover:bg-[#AA8864] text-white border border-[#AA8864] text-xs font-medium uppercase tracking-wider px-5 py-2.5 rounded-full transition-all duration-300 shadow hover:shadow-md flex items-center gap-2 cursor-pointer"><span>Découvrir le flacon</span><i class="fa-solid fa-arrow-right text-[10px]"></i></a></div></div></div></div><div class="text-center pt-3 border-t border-slate-200 mt-2"><p class="font-serif-luxury italic text-slate-600 text-sm tracking-wide flex items-center justify-center gap-2"><i class="fa-regular fa-clock text-xs text-[#AA8864]"></i> Rendez-vous demain pour une nouvelle création olfactive...</p></div></section>
+<!-- ================= COLONNE DROITE (7 cols): Grille 2x2 des 4 Gammes ================= -->
+<!-- Conforme au croquis: Gamme Femme, Gamme Homme, Gamme Enfants, Gamme Mini Prix -->
+<section class="lg:col-span-7 flex flex-col justify-between h-full" data-purpose="fragrance-ranges-grid">
+<div class="mb-4 flex items-center justify-between">
+<h2 class="font-serif-luxury text-2xl font-bold text-brand-navy">Nos Collections d'Atelier</h2>
+<span class="text-xs text-slate-500 uppercase tracking-wider">Parfums Rares &amp; Accessibles</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5 h-full">
+<!-- 1. Gamme Femme (Dessin croquis: silhouette femme + icône cœur) -->
+<article class="bg-white rounded-xl p-5 border border-brand-border/70 shadow-sm card-hover-gold flex flex-col justify-between group relative overflow-hidden" data-purpose="gamme-femme-card"><div class="flex items-start justify-between mb-3"><span class="text-[#AA8864] text-base"><i class="fa-solid fa-heart"></i></span><span class="text-[10px] tracking-widest uppercase bg-amber-50 text-[#AA8864] border border-[#AA8864]/40 px-2.5 py-0.5 rounded-full font-semibold">Best-sellers</span></div><div class="w-full h-44 rounded-lg overflow-hidden relative shadow-sm mb-3"><img alt="Gamme Femme L'Atelier IWÉA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHkcXxXUHlTAez84YY-eT85J6i-T9OE98dewH-xIUduc_LWKV0QqhlFYfNZWjxu3VF1_RT4jw_cLJSYA2zYNpdrTWiJHW3vLHLvSC5dSQs91B3iVfpyfaqTCJstWzsaRNr2rEPRUl8OLZCpNzqip9tkICCq8XWfailoAxwZ2EoQAaA0Nj2kJz5JlPBrfhF7wkvUeUpx_Zw1sNB4BMcoXwFa8RViaA13uBtATuTjQI"><div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div></div><div class="text-center"><h3 class="font-serif-luxury text-xl font-bold text-[#334147] group-hover:text-[#AA8864] transition">Gamme Femme</h3><p class="text-xs text-slate-600 mt-1 line-clamp-2 leading-relaxed">Élégance florale, sillages envoûtants et accords fruités subtils.</p><a class="inline-flex items-center text-xs font-semibold text-[#AA8864] hover:text-[#334147] mt-3 transition gap-1.5" href="#gamme-femme">Explorer l'univers <i class="fa-solid fa-arrow-right text-[10px]"></i></a></div></article>
+<!-- 2. Gamme Homme (Dessin croquis: visage/silhouette homme + icône cœur) -->
+<article class="bg-white rounded-xl p-5 border border-brand-border/70 shadow-sm card-hover-gold flex flex-col justify-between group relative overflow-hidden" data-purpose="gamme-homme-card"><div class="flex items-start justify-between mb-3"><span class="text-[#AA8864] text-base"><i class="fa-solid fa-heart"></i></span><span class="text-[10px] tracking-widest uppercase bg-slate-100 text-[#334147] border border-slate-300 px-2.5 py-0.5 rounded-full font-semibold">Caractère &amp; Boisé</span></div><div class="w-full h-44 rounded-lg overflow-hidden relative shadow-sm mb-3"><img alt="Gamme Homme L'Atelier IWÉA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPEkuc4kt35mqk9fQPqv1bdYoVk0JQ5TMszBsoVWsEdsltcnPmDoiLEkTgQCbsmwj0zsF6wRUnIojhgF8mPf6k-baiCHMNVG0eoCVS-fZMr6QR55r-avEU3m2SimlYMORvZoPI8zlftr9Xyhb2feT0SUffC2Qbq-YEQLSHhADMrVY09voILhq8_VCv_i2XDJWqEHlt8hqB7jWawPLt1xLA0K7SqVQq8kWHx2sSlDU"><div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div></div><div class="text-center"><h3 class="font-serif-luxury text-xl font-bold text-[#334147] group-hover:text-[#AA8864] transition">Gamme Homme</h3><p class="text-xs text-slate-600 mt-1 line-clamp-2 leading-relaxed">Notes boisées ambrées, cuirs raffinés et fraîcheur aromatique intense.</p><a class="inline-flex items-center text-xs font-semibold text-[#AA8864] hover:text-[#334147] mt-3 transition gap-1.5" href="#gamme-homme">Explorer l'univers <i class="fa-solid fa-arrow-right text-[10px]"></i></a></div></article>
+<!-- 3. Gamme Enfants (Dessin croquis: visage d'enfant doux + icône cœur) -->
+<article class="bg-white rounded-xl p-5 border border-brand-border/70 shadow-sm card-hover-gold flex flex-col justify-between group relative overflow-hidden" data-purpose="gamme-enfants-card"><div class="flex items-start justify-between mb-3"><span class="text-[#AA8864] text-base"><i class="fa-solid fa-heart"></i></span><span class="text-[10px] tracking-widest uppercase bg-[#FAF8F5] text-slate-700 border border-[#AA8864]/30 px-2.5 py-0.5 rounded-full font-semibold">Sans alcool &amp; Douceur</span></div><div class="w-full h-44 rounded-lg overflow-hidden relative shadow-sm mb-3"><img alt="Gamme Enfants L'Atelier IWÉA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcNXsqHxbMIeHsgLxiXo5POumpKFVjmmtArgr7gfDrmi43yy00Thwe9zZNlsmnnfFlcFdmdchFz5-E-3OOstW7VWubByMHOgvZo5rSilyb8IaOdD5FTC14BuOLgoJ44YpH_vyNt7vdFf8zJRBgcDMRhaUSmvVCYF-lR7YJNZ3ueFY1lOjAvdBapf5zyxg2lKLtBUBb07-I7zmp0TDk6CAsFaDGBrkQW6Vctl9apqY"><div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none"></div></div><div class="text-center"><h3 class="font-serif-luxury text-xl font-bold text-[#334147] group-hover:text-[#AA8864] transition">Gamme Enfants</h3><p class="text-xs text-slate-600 mt-1 line-clamp-2 leading-relaxed">Formules tendres, fleur d'oranger apaisante et senteurs hypoallergéniques.</p><a class="inline-flex items-center text-xs font-semibold text-[#AA8864] hover:text-[#334147] mt-3 transition gap-1.5" href="#gamme-enfants">Explorer l'univers <i class="fa-solid fa-arrow-right text-[10px]"></i></a></div></article>
+<!-- 4. Gamme Mini Prix (Dessin croquis: étiquette promo avec % + icône cœur) -->
+<article class="bg-gradient-to-b from-amber-50/50 to-white rounded-xl p-5 border border-amber-300/80 shadow-sm card-hover-gold flex flex-col justify-between group relative overflow-hidden" data-purpose="gamme-mini-prix-card"><div class="flex items-start justify-between mb-3"><span class="text-[#AA8864] text-base"><i class="fa-solid fa-heart"></i></span><span class="text-[10px] tracking-widest uppercase bg-[#AA8864] text-white px-2.5 py-0.5 rounded-full font-bold shadow-sm">Bons Plans</span></div><div class="w-full h-44 rounded-lg overflow-hidden relative shadow-sm mb-3"><img alt="Gamme Mini Prix L'Atelier IWÉA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpoGLpzZvyJHdZ_WuFKNmGGpq5OXEltvZPZH2RKxnME7B56a-2QE1_QUc-jt7QwneacdvTMY010e9FKd0DlCUuEqeAXIAkyBPlwvWkD1-SNN829zORGSPEqxjUvswPrmpHYBAYlvNc89UqoAa8YLmlWuXIaqIkqawclobz_-I0Txc_zH__sSbsNqaSpHfAEEBC_u9c1jhlYcp-1p4sjyhXnAWtUrDMyrrrCds4YYk"><div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div><span class="absolute bottom-2 right-2 bg-[#334147]/90 text-[#E5C9A6] border border-[#AA8864]/60 text-[10px] font-bold px-2 py-0.5 rounded">Dès 15€</span></div><div class="text-center"><h3 class="font-serif-luxury text-xl font-bold text-[#334147] group-hover:text-[#AA8864] transition">Gamme Mini Prix</h3><p class="text-xs text-slate-600 mt-1 line-clamp-2 leading-relaxed">Flacons d'exception dès 15€ et offres exclusives de déstockage parfum.</p><a class="inline-flex items-center text-xs font-bold text-[#AA8864] hover:text-[#334147] mt-3 transition gap-1.5" href="#gamme-mini-prix">Voir les offres <i class="fa-solid fa-percent text-[10px]"></i></a></div></article>
+</div>
+</section>
+</div>
+</main>
+<!-- END: MainContentGrid -->
+<!-- BEGIN: LegalDisclaimersSection -->
+<!-- Conforme au croquis IMAGE_3 : Les 3 renvois avec astérisques (*, **, ***) -->
+<section class="border-t border-slate-200 bg-white/70 py-6 text-slate-500 text-xs" data-purpose="legal-footnotes">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2 font-light">
+<p class="leading-relaxed">
+<span class="font-medium text-slate-700">*</span> 
+        Offre IWÉA Days -30% dès 49€ d'achat TTC du Mardi 12 Novembre au Samedi 30 Novembre inclus, applicable directement dans le panier sur l'ensemble du catalogue hors coffrets collectors.
+      </p>
+<p class="leading-relaxed">
+<span class="font-medium text-slate-700">**</span> 
+        Une sélection de parfums de haute qualité à moins de 30€ TTC selon disponibilités des stocks en boutique et atelier.
+      </p>
+<p class="leading-relaxed">
+<span class="font-medium text-slate-700">***</span> 
+        Paiement en 3 fois possible avec notre partenaire financier Alma &amp; Klarna à partir de 59€ TTC. Un crédit vous engage et doit être remboursé, vérifiez vos capacités avant de vous engager.
+      </p>
+</div>
+</section>
+<!-- END: LegalDisclaimersSection -->
+<!-- BEGIN: PartnersAndTrustSection -->
+<!-- Conforme au croquis IMAGE_3 :
+       - Nos Moyens de paiement (Paypal, Klarna, Mastercard, VISA, Amex, GPay, Apple Pay, CB)
+       - Nos partenaire livraison (chronopost, colissimo...)
+       - Nos partenaire Gift (Dior, ...) -->
+<section class="border-t border-brand-border bg-slate-50/80 py-8" data-purpose="partners-trust"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 md:grid-cols-3 gap-8"><div class="flex flex-col" data-purpose="payment-methods"><h4 class="font-serif-luxury text-base font-bold uppercase tracking-wider text-brand-navy mb-3">Nos Moyens de paiement</h4><p class="text-[11px] text-slate-500 mb-3">Transactions sécurisées &amp; échelonnées</p><div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-700 items-center"><a href="#paiement-paypal" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-brands fa-paypal text-blue-700"></i> PayPal</a><a href="#paiement-klarna" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-solid fa-k text-pink-600"></i> Klarna</a><a href="#paiement-mastercard" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-brands fa-cc-mastercard text-red-500"></i> Mastercard</a><a href="#paiement-visa" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-brands fa-cc-visa text-blue-900"></i> VISA</a><a href="#paiement-amex" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-brands fa-cc-amex text-sky-600"></i> AMEX</a><a href="#paiement-gpay" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-brands fa-google-pay text-slate-800"></i> GPay</a><a href="#paiement-applepay" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs flex items-center gap-1.5 transition-colors cursor-pointer"><i class="fa-brands fa-apple text-slate-900"></i> Apple Pay</a><a href="#paiement-cb" class="bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1 rounded shadow-xs font-bold text-teal-700 transition-colors cursor-pointer">CB</a></div></div><div class="flex flex-col" data-purpose="shipping-partners"><h4 class="font-serif-luxury text-base font-bold uppercase tracking-wider text-brand-navy mb-3">Nos partenaires livraison</h4><p class="text-[11px] text-slate-500 mb-3">Expédition soignée en 24h/48h</p><div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-700 items-center"><a href="#livraison-chronopost" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs flex items-center gap-2 transition-colors cursor-pointer"><i class="fa-solid fa-truck-fast text-sky-600"></i> Chronopost</a><a href="#livraison-colissimo" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs flex items-center gap-2 transition-colors cursor-pointer"><i class="fa-solid fa-box text-amber-600"></i> Colissimo</a><a href="#livraison-relais" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs flex items-center gap-2 transition-colors cursor-pointer"><i class="fa-solid fa-shop text-emerald-600"></i> Point Relais</a></div></div><div class="flex flex-col" data-purpose="gift-partners"><h4 class="font-serif-luxury text-base font-bold uppercase tracking-wider text-brand-navy mb-3">Nos partenaires Gift</h4><p class="text-[11px] text-slate-500 mb-3">Échantillons &amp; attentions de prestige</p><div class="flex flex-wrap gap-2 text-xs font-serif-luxury tracking-widest text-slate-800 uppercase items-center"><a href="#partenaire-dior" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs font-bold hover:text-brand-gold transition-colors cursor-pointer">Dior</a><a href="#partenaire-chanel" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs font-bold hover:text-brand-gold transition-colors cursor-pointer">Chanel</a><a href="#partenaire-guerlain" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs font-bold hover:text-brand-gold transition-colors cursor-pointer">Guerlain</a><a href="#partenaire-hermes" class="bg-white hover:bg-slate-100 border border-slate-200 px-3 py-1.5 rounded shadow-xs font-bold hover:text-brand-gold transition-colors cursor-pointer">Hermès</a></div></div></div></div></section>
+<!-- END: PartnersAndTrustSection -->
+<!-- BEGIN: MainFooter -->
+<!-- Conforme au croquis IMAGE_3 : Pied de page en 3 colonnes exactes :
+       1. Service client (Aide - FAQ, Bon de retour, Paiement, Livraison, Nous contacter)
+       2. Plus d'informations (Services et Avantages, Programme fidélité, Plan du site, Conditions des offres)
+       3. Conditions générales (Qui sommes nous, Nos engagements, Recrutement, Conditions Générales) -->
+<footer class="bg-brand-midnight text-slate-300 pt-12 pb-8 border-t border-brand-gold/30" data-purpose="global-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-slate-800">
+<!-- Colonne 1: Service client -->
+<div data-purpose="footer-service-client">
+<h5 class="font-serif-luxury text-lg font-bold text-amber-200/90 tracking-wide uppercase mb-4 pb-1 border-b border-slate-800 inline-block">
+            Service client
+          </h5>
+<ul class="space-y-2.5 text-xs font-light tracking-wide">
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#faq">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Aide — FAQ
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#retour">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Bon de retour
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#paiement">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Paiement sécurisé
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#livraison">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Modalités de livraison
+              </a>
+</li>
+<li><a class="group/tooltip relative hover:text-brand-gold transition flex items-center cursor-pointer" href="#contact" title="Service client disponible 7j/7 - Écrivez-nous"><i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2 group-hover/tooltip:translate-x-1 transition-transform"></i><span>Nous contacter</span><span class="hidden group-hover/tooltip:inline-block ml-2 px-1.5 py-0.5 text-[9px] bg-brand-gold text-slate-900 font-semibold rounded shadow-xs">Support 7j/7</span></a></li>
+</ul>
+</div>
+<!-- Colonne 2: Plus d'informations -->
+<div data-purpose="footer-more-info">
+<h5 class="font-serif-luxury text-lg font-bold text-amber-200/90 tracking-wide uppercase mb-4 pb-1 border-b border-slate-800 inline-block">
+            Plus d'informations
+          </h5>
+<ul class="space-y-2.5 text-xs font-light tracking-wide">
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#services">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Services et Avantages
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#programme-fidelite">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Programme fidélité IWÉA
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#plan-du-site">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Plan du site
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#conditions-offres">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Condition des offres
+              </a>
+</li>
+</ul>
+</div>
+<!-- Colonne 3: Conditions générales -->
+<div data-purpose="footer-legal-terms">
+<h5 class="font-serif-luxury text-lg font-bold text-amber-200/90 tracking-wide uppercase mb-4 pb-1 border-b border-slate-800 inline-block">
+            Conditions générales
+          </h5>
+<ul class="space-y-2.5 text-xs font-light tracking-wide">
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#qui-sommes-nous">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Qui sommes-nous ?
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#engagements">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Nos engagements qualité
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#recrutement">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Recrutement
+              </a>
+</li>
+<li>
+<a class="hover:text-brand-gold transition flex items-center" href="#cgv">
+<i class="fa-solid fa-angle-right text-[10px] text-brand-gold mr-2"></i> Conditions Générales de Vente (CGV)
+              </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Copyright & Signature de marque -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500"><div class="flex flex-wrap items-center gap-4 text-[11px] text-slate-400"><p>© 2026 L'Atelier IWÉA Parfum. Tous droits réservés.</p><span class="text-slate-700">•</span><a href="#mentions-legales" class="hover:text-brand-gold transition-colors cursor-pointer">Mentions Légales</a><span class="text-slate-700">•</span><a href="#confidentialite" class="hover:text-brand-gold transition-colors cursor-pointer">Politique de Confidentialité</a><span class="text-slate-700">•</span><a href="#gestion-cookies" class="hover:text-brand-gold transition-colors cursor-pointer">Gestion des Cookies</a><span class="text-slate-700">•</span><a href="#cgv" class="hover:text-brand-gold transition-colors cursor-pointer">CGV</a></div><p class="font-serif-luxury italic text-slate-400 mt-2 sm:mt-0">Créateur de sillages précieux — Haute Parfumerie Française</p></div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+
+
+
+
+</body></html>
